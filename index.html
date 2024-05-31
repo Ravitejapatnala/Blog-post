@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A blog on web technologies like HTML, CSS and JavaScript">
+    <meta name="author" content="Ravi Teja Patnala">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header class="header">
+        <h1 class="heading">Exploring Web Technologies</h1>
+        <p class="tag-line">My journey through web technologies like HTML, CSS and JavaScript.</p>
+        <p class="description">
+            HTML, CSS, and JavaScript are the core technologies of web development. HTML(Hyper Text Markup Language) structures the content of
+            web pages using elements like headings, paragraphs, and images. CSS(Cascading Style Sheets) styles this content, controlling layout,
+            colors, fonts, and overall visual presentation. JavaScript adds interactivity and dynamic behavior, enabling features like form validation,
+            content updates, and multimedia controls. Together, they create responsive, user-friendly websites and web application.
+            In the modern era, these technologies support frameworks and libraries like React, Angular and Vue.js, enhancing development efficiency and
+            user experience. They are essential for front-end development and are foundational for building the interactive and visually appealing websites
+            users expect today.
+        </p>
+    </header>
+
+    <!-- Navbar section -->
+    <nav class="navbar">
+        <a id="html-a" href="#html">HTML</a>
+        <a id="css-a" href="#css">CSS</a>
+        <a id="javascript-a" href="#javascript">JavaScript</a>
+        <a id="about-a" href="#about">About</a>
+        <a id="contact-a" href="#contact">Contact</a>
+    </nav>
+
+    <!-- Blog section -->
+    <section class="blogs">
+        <h1 class="blogs-heading">Blogs</h1>
+        <fieldset id="html"> 
+            <legend class="html-title"><h2>HTML(Hypertext Markup Language)</h2></legend>
+            <section class="html-logo">
+                <img src="./images/html5-color.svg" alt="html-logo" height="150px">
+            </section>
+            <article class="blog1">
+                <h3>Structure of Web Pages:</h3>
+                <ul>
+                    <li>HTML defines the basic structure and layout of web pages.</li>
+                    <li>It uses elements like (html, head, body) to organize content.</li>
+                    <li>Elements like headings(h1 to h6), paragraphs(p), and lists(ul, ol, li) facilitate content organization.</li>
+                    <li>Structural elements such as (header, nav, main, footer) help divide the page into meaningful sections.</li>
+                    <li>Semantic tags like (articles, section, aside, figure and figcaption) provide clarity and meaning to the content.</li>
+                </ul>
+                <h3>Content Markup:</h3>
+                <ul>
+                    <li>HTML markup is used to represent various types of content on a web page.</li>
+                    <li>Text content can be marked up using tags like(p) for paragraphs, (h1 to h6) for headings and (span) for inline text.</li>
+                    <li>Structural content such as lists can be represented using (ul) for unordered lists and (ol) for ordered lists.</li>
+                    <li>Images are inserted using the (img) tag with attributes like (src) for the image source and (alt) for alternative text.</li>
+                    <li>Hyperlinks are created using the (a) tag with the (href) attribute for specifying the destination URL.</li>
+                </ul>
+                <h3>Metadata and Document Structure:</h3>
+                <ul>
+                    <li>HTML allows inclusion of metadata in web pages through elements like (meta) for specifying character encoding, viewport settings, and other information.</li>
+                    <li>Document structure is defined using (head) element to contain metadata and (body) element for the main content.</li>
+                    <li>Title of the web page is specified within the (title) tag nested inside the (head) element.</li>
+                    <li>External resources such as stylesheets and scripts are linked using (link) and (script) elements respectively.</li>
+                    <li>Comments can be added withing the HTML code to provide context or explanations.</li>
+                </ul>
+            </article>
+            <section class="html-video">
+                <video src="./videos/HTML in 100 Seconds.mp4" controls height="300px"></video>
+            </section>
+            <h3 class="html-final">Building the web with passion and precision</h3>
+            <p>When I started exploring web development and HTML was my foundation. It wasn't just learning a coding language. It was finding a new way to build, share and link ideas. HTML is the base of the internet. Learning and implementing HTML was so interesting and looking forward to build many projects with HTML.</p>
+        </fieldset>
+
+        <fieldset id="css">
+            <legend class="css-title"><h2>CSS(Cascading Style Sheets)</h2></legend>
+            <div class="css-logo">
+                <img src="./images/css3-color.svg" alt="css-logo" height="150px">
+            </div>
+            <article class="blog2">
+                <h3>Understanding Cascading Style Sheets:</h3>
+                <ul>
+                    <li>CSS defines the visual presentation and layout of web pages.</li>
+                    <li>It allows styling of HTML elements, controlling aspects such as color, font, size, spacing and positioning.</li>
+                    <li>CSS rules are applied to HTML elements using elements using selectors and declerations.</li>
+                    <li>Selectors target HTML elements, classes, ID's or other attributes, while declerations specify the styles to be applied.</li>
+                    <li>CSS can be applied inline, internally within a (style) tag in the HTML document, or externally via separate CSS files.</li>
+                </ul>
+                <h3>Key Concepts and Features:</h3>
+                <ul>
+                    <li>CSS follows a cascade and specificity model, where conflicting styles are resolved based on specificity and inheritance.</li>
+                    <li>Box model: CSS treats each HTML element as a rectangular box with content, padding, border and margin.</li>
+                    <li>Flexbox and Grid: Modern layout techniques like Flexbox and CSS Grid provide powerful tools for creating complex layouts with ease.</li>
+                    <li>Responsive Design: CSS media queries allow adapting layouts for different screen sizes and devices.</li>
+                    <li>Transitions and Animations: CSS supports adding transitions and animations to elements, enhancing user experience and interactivity.</li>
+                </ul>
+                <h3>Organizing Styles and Best Practices:</h3>
+                <ul>
+                    <li>Seperation of Concerns: Keep HTML, CSS and JavaScript seperate for better maintainability and scalability.</li>
+                    <li>Use of Classes and ID's: Apply styles using classes for reusable styles and ID's for unique elements.</li>
+                    <li>CSS Preprocessors: Tools like Sass and Less extend CSS with features like variables, nesting, and mixins to streamline development.</li>
+                    <li>CSS Frameworks: Frameworks like Bootstrap and Foundation provide pre-designed components and layouts to accelerate development.</li>
+                    <li>Optimization and Performance: Minify and concatenate CSS files, reduce redundancy, and leverage browser caching for faster loading times.</li>
+                </ul>
+            </article>
+            <section class="css-video">
+                <video src="./videos/CSS in 100 Seconds.mp4" controls height="300px"></video>
+            </section>
+            <h3 class="css-final">Transforming the web design skills</h3>
+            <p>I find CSS to be a perfect tool to bring my web design visions to life. CSS transforms the skeletal structure of HTML into something beautiful, engaging and uniquely mine. CSS is where my creativity meets precision, allowing each element on a page to be meticulously crafted and styled to perfection.</p>
+        </fieldset>
+
+        <fieldset id="javascript">
+            <legend class="js-title"><h2>JavaScript</h2></legend>
+            <div class="js-logo">
+                <img src="./images/javascript-color.svg" alt="js-logo" height="150px">
+            </div>
+            <article class="blog3">
+                <h3>Introduction to JavaScript:</h3>
+                <ul>
+                    <li>JavaScript is a versatile programming language used to create interactive and dynamic web pages.</li>
+                    <li>It enables the manipulation of HTML and CSS allowing real-time updates to content and styles.</li>
+                    <li>JavaScript can run in the browser, making it essential for front-end development.</li>
+                    <li>It is also used on the server-side with environments like Node.js, allowing full-stack development.</li>
+                    <li>JavaScript supports event-driven programming, which is crucial for handling user interactions.</li>
+                </ul>
+                <h3>Key Features and Concepts:</h3>
+                <ul>
+                    <li>JavaScript supports various data types including strings, numbers, arrays, and objects.</li>
+                    <li>Functions are first-class objects, meaning they can be assigned to variables, passed as arguments and returned from other functions.</li>
+                    <li>JavaScript is prototype-based, allowing objects to inherit properties and methods from other objects.</li>
+                    <li>Asynchronous programming is facilitated through callbacks, promises and async/await syntax.</li>
+                    <li>DOM Manipulation: JavaScript can dynamically create, update, and delete HTML elements and attributes.</li>
+                </ul>
+                <h3>Advanced JavaScript Features:</h3>
+                <ul>
+                    <li>Modern JavaScript(ES6+) introduces new syntax and features like arrow functions, classes and template literals.</li>
+                    <li>MOdules allow the organization of code into reusable components, making it easier to manage large codebases.</li>
+                    <li>Event handling is crucial for creating responsive web applications, using event listeners and handlers.</li>
+                    <li>APIs and AJAX: JavaScript can interact with web APIs and perform asynchronous requests using AJAX, Fetch API, and other methods.</li>
+                    <li>JavaScript frameworks and libraries like React, Angular, and Vue.js provide robust tools for building  complex applications.</li>
+                </ul>
+            </article>
+            <section class="js-video">
+                <video src="./videos/JavaScript in 100 Seconds.mp4" controls height="300px"></video>
+            </section>
+            <h3 class="js-final">Making the Web Dynamic</h3>
+            <p>JavaScript is a gateway to boundless creativity and empowerment. JavaScript empowers me to sculpt digital landscapes that captivate and inspire. And as technology evolves and new possibilities emerge, JavaScript remains at the forefront, adapting and innovating to meet the demands of tomorrow.</p>
+        </fieldset>
+    </section>
+
+    <!-- About -->
+    <aside class="about" id="about">
+        <h1 class="about-heading">About</h1>
+        <hr/>
+        <p class="about-me">A passionate learner on a thrilling through the realm of fullstack web development. Currently immersing myself in the world of HTML and CSS. I'm fueled by curiosity and a relentless drive to master the tools and technologies.</p>
+        <p class="about-me">My digital abode, where I share insights, discover from my journey into the world of web development. My blog serves as a platform to document my learnings.</p>
+    </aside>
+
+    <!-- Contact form -->
+    <aside class="contact" id="contact">
+        <h1 class="contact-heading">Contact form</h1>
+        <form action="#">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required placeholder="Enter your name...">
+            <br/>
+            <br/>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required placeholder="Enter your email...">
+            <br/>
+            <br/>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter phone number..." required>
+            <br/>
+            <br/>
+            <label for="message">Your Message</label><br/>
+            <textarea placeholder="Enter your message..." name="message" id="message"></textarea>
+            <br/>
+            <button class="submit">Submit</button>
+        </form>
+        <section class="social">
+            <a href="mailto:akashraviteja17@gmail.com" target="_blank">Email|</a>
+            <a href="https://github.com/Ravitejapatnala?tab=repositories" target="_blank">Github|</a>
+            <a href="https://www.linkedin.com/in/ravi-teja-patnala-9691582a2/" target="_blank">LinkedIn</a>
+        </section>
+    </aside>
+
+    <!-- Footer -->
+    <footer class="footer">
+        Copyright &copy; 2024 Exploring Web Technologies.
+        The images and videos used in this blog post are sourced from Web. All copyrights belong to their respective owners.
+    </footer>
+</body>
+</html>
